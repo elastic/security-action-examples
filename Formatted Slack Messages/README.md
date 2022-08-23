@@ -5,3 +5,9 @@ This assumes you have a slack [webhook](https://api.slack.com/messaging/webhooks
 The webhook URL should look similar to:
 
 `https://hooks.slack.com/services/xxxxxx/xxxxxxx/xxxxxxxx`
+
+**Example Result:**
+![Result](Slack%20Example%20Result.png)
+
+**Example Connector Config:**
+![Result](Connector%20Config%20Example.png)
