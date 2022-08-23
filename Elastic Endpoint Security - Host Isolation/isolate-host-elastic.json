@@ -1,0 +1,9 @@
+{
+  "endpoint_ids": [
+    "{{#context.alerts}}{{agent.id}}{{/context.alerts}}"
+  ],
+  "comment": "Isolated by Elastic Detection Rule - {{context.rule.name}}. IDs: {{#context.alerts}}{{_id}},{{/context.alerts}}",
+  "case_ids": [
+    ""
+  ]
+}

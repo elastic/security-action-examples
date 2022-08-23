@@ -1,0 +1,51 @@
+{
+    "text": "SwiftCrypto Alert",
+    "attachments": [
+        {
+        "color": "danger",
+        "title": "{{context.rule.name}} - {{context.alerts.0.message}}",
+        "title_link": "{{{context.results_link}}}",
+        "text": "{{context.rule.description}}",
+        "fields": [
+                {
+                  "title": "Occurences",
+                  "value": "{{state.signals_count}}",
+                  "short": true
+                },
+                 {
+                  "title": "Severity",
+                  "value": "{{context.alerts.0.kibana.alert.original_event.severity}}",
+                  "short": true
+                },
+                {
+                  "title": "User Name",
+                  "value": "{{#context.alerts}}{{user.name}} {{/context.alerts}}",
+                  "short": true
+                },
+                {
+                  "title": "Host Name",
+                  "value": "{{#context.alerts}}{{host.name}} {{/context.alerts}}",
+                  "short": true
+                },
+                {
+                  "title": "Process Name",
+                  "value": "{{#context.alerts}}{{process.name}} {{/context.alerts}}",
+                  "short": true
+                },
+                {
+                  "title": "Malicious File Name",
+                  "value": "{{#context.alerts}}{{file.name}} {{/context.alerts}}",
+                  "short": true
+                }
+           ],
+           "actions": [
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "text": "View Alert :link:",
+                  "url": "{{{context.results_link}}}"
+                }
+            ]
+       }
+   ]
+}

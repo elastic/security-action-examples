@@ -1,0 +1,12 @@
+[
+    {
+        "action": "block",
+        "paused": false,
+        "description": "Rule Created by Elastic Security on {{date}}. Alert ID - {{#context.alerts}}{{_id}},{{/context.alerts}}",
+        "filter": {
+            "expression": "ip.src in { {{#context.alerts}}{{source.ip}} {{/context.alerts}} }",
+            "paused": false,
+            "description": "Filter Created by Elastic Security on {{date}}. Alert ID - {{#context.alerts}}{{_id}},{{/context.alerts}}"
+        }
+    }
+]

@@ -1,0 +1,7 @@
+{
+     "title": "{{context.rule.name}} - {{context.alerts.0.message}}",
+     "description": "{{{context.results_link}}} {{context.rule.description}}",
+     "severity": 3,
+     "tlp": 3,
+     "tags": ["automatic", "creation"]
+}

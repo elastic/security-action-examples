@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "priority": 1005,
+    "ruleCollections": [
+      {
+        "ruleCollectionType": "FirewallPolicyFilterRuleCollection",
+        "name": "automated-by-detections-on-{{date}}",
+        "priority": 1000,
+        "action": {
+          "type": "Deny"
+        },
+        "rules": [
+          {
+            "ruleType": "NetworkRule",
+            "name": "automated-by-detection-{{context.rule.name}}",
+            "sourceAddresses": [
+              "*"
+            ],
+            "destinationAddresses": [
+              "{{#context.alerts}}{{destination.ip}}/32{{/context.alerts}}"
+            ],
+            "ipProtocols": [
+              "ANY"
+            ],
+            "destinationPorts": [
+              "*"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

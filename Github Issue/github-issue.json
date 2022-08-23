@@ -1,0 +1,10 @@
+{
+    "title": "{{context.rule.name}} - {{context.alerts.0.message}}",
+    "body":"This issue was created by [Elastic Security]({{{context.results_link}}})\n\n**User Name**: {{#context.alerts}}{{user.name}} {{/context.alerts}}\n**Host Name**: {{#context.alerts}}{{host.name}} {{/context.alerts}}\n**Destination IP**: {{#context.alerts}}{{destination.ip}} {{/context.alerts}}\n**Process Name**: {{#context.alerts}}{{process.name}} {{/context.alerts}}",
+    "assignees": [
+        "jamesspi"
+    ],
+    "labels": [
+        "elastic-security-detection"
+    ]
+}
