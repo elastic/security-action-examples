@@ -1,4 +1,4 @@
-This action creates an case in an instance of [TheHive.](https://thehive-project.org)
+This action creates a case in an instance of [TheHive.](https://thehive-project.org)
 
 You will need to create an API key for the account being used for automation.
 
