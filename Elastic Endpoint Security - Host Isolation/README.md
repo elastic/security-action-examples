@@ -5,3 +5,6 @@ This action will isolate a host running Elastic Agent with the Endpoint Security
 The webhook URL should look similar to:
 
 `https://<kibana-url>/api/endpoint/isolate`
+
+**Example Connector Config:**
+![Result](Connector%20Config%20Example.png)
