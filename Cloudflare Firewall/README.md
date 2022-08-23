@@ -3,3 +3,9 @@ For cloudflare firewalls, this assumes you have a defined zone which you would l
 The webhook URL should look similar to:
 
 `https://api.cloudflare.com/client/v4/zones/xxxxxxxxxxxx/firewall/rules`
+
+**Example Result:**
+![Result](Cloudflare%20Example%20Result.png)
+
+**Example Connector Config:**
+![Result](Connector%20Config%20Example.png)
