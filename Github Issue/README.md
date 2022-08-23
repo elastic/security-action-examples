@@ -5,3 +5,9 @@ This assumes the repository already exists, and the assignee has appropriate per
 The webhook URL should look similar to:
 
 `https://api.github.com/repos/<org>/<repo>/issues`
+
+**Example Result:**
+![Result](Github%20Example%20Result.png)
+
+**Example Connector Config:**
+![Result](Connector%20Config%20Example.png)
