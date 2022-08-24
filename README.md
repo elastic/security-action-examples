@@ -4,10 +4,10 @@ This repository contains a few examples of webhook [actions](https://www.elastic
 
 - A JSON file containing the action content. Please feel free to change the variables and other content as you see fit.
 - A README file with specific instructions for the action connector in question.
-- A screenshot of the connector configuation in Kibana's [connector management](https://www.elastic.co/guide/en/kibana/current/action-types.html) page.
+- A screenshot of the connector configuration in Kibana's [connector management](https://www.elastic.co/guide/en/kibana/current/action-types.html) page.
 - A screenshot of the expected outcome when an action runs successfully.
 
-_**Please use these actions with caution, and test appropriately. Do not blindly add an action to a detection rule if you are unsure of what the outcome is, or how it will impact your organization. You should follow any operational procedures you may have in place for any form of automation scenarios.**_ 
+_**Please use these actions with caution, and test appropriately. Do not blindly add an action to a detection rule if you are unsure of what the outcome is, or how it will impact your organization. You should follow any operational procedures you may have in place for any form of automation scenarios.**_
 
 The screenshot below shows an example of what one of these actions would look like as part of a detection rule configuration:
 
