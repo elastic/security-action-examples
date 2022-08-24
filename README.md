@@ -1,6 +1,6 @@
 <h1><img src="https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blte046ae7d78156afb/601081790839e910126d7653/security-logo-color-32px.svg"/>  Security Action Examples</h1>
 
-This repository contains a few examples of [actions](https://www.elastic.co/guide/en/security/current/rules-ui-create.html#rule-notifications) that can be added to [rules](https://www.elastic.co/guide/en/security/current/detection-engine-overview.html) within [Elastic Security](https://www.elastic.co/security). Each subdirectory contains the following files:
+This repository contains a few examples of webhook [actions](https://www.elastic.co/guide/en/security/current/rules-ui-create.html#rule-notifications) that can be added to [rules](https://www.elastic.co/guide/en/security/current/detection-engine-overview.html) within [Elastic Security](https://www.elastic.co/security). Each subdirectory contains the following files:
 
 - A JSON file containing the action content. Please feel free to change the variables and other content as you see fit.
 - A README file with specific instructions for the action connector in question.
